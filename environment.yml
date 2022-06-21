@@ -1,0 +1,21 @@
+# conda env create --file environment.yml
+name: Project
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - jupyter
+  - jupyterlab
+  - pandas
+  - matplotlib
+  - seaborn
+  - pep8
+  - openpyxl
+  - scipy
+  - joblib
+  - scikit-learn
+
+  
+  
